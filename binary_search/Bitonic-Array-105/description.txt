@@ -1,0 +1,25 @@
+Description
+
+Given a bitonic array A consisting of N integers and an integer Q. In each query, you will be given an integer K, find the positions of K in A. Integer K exists in A.
+
+Bitonic array - A bitonic sequence is a sequence with A[1]<A[2]<A[3]....A[k]>A[k+1]>A[k+2]....>A[N] for some 1<=K≤N. 
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10000).
+
+The first line contains two space separated-integer N, Q where 1<=N<=10^5, 1<=Q<=10^6.
+
+The second line contains N space-separated integers A1,A2....AN where -1e9<=Ai<=1e9.
+
+Next Q lines contains an integer K, -1e9<=K<=1e9.
+
+Sum of N, Q across all test case ≤10^6
+
+
+Output Format
+
+For each test case print the positions of K in A in sorted order in a new line.
+
+Positions are 1-indexed.
