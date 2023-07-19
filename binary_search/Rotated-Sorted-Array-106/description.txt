@@ -1,0 +1,25 @@
+Description
+
+Given a rotated sorted array. Find the index of the minimum element in the array.
+
+All the elements are distinct.
+
+ 
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10000).
+
+The first line contains an integer N where 1<=N<=10^5.
+
+The second line contains N space-separated integers A1,A2....AN where -1e9<=Ai<=1e9.
+
+Sum of N over all test cases ≤10^6.
+
+
+Output Format
+
+For each test case print the index of the minimum element in the array.
+
+0-indexed.
