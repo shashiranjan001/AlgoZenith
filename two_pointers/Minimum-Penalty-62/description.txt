@@ -1,0 +1,17 @@
+Given an array of N integers and an integer D. Consider all subarray with length D, the penalty of the subarray is the number of distinct elements present in the subarray. Find a subarray of length D with minimum penalty. Print the minimum penalty.
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10000).
+
+The first line contains two space-separated integers N, D where 1<=N<=10^6, 1<=D<=N.
+
+Next line contains N space-separated integers (0<=Ai<=1e6).
+
+The Sum of N across all test cases ≤ 5*10^6.
+
+
+Output Format
+
+For each test case print the minimum penalty in a newline.
