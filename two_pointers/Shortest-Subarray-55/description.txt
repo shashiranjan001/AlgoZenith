@@ -1,0 +1,19 @@
+Description
+
+Given an array of N integers, find the length of the smallest sub-array that contains all the distinct elements of the array.
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10).
+
+The first line contains an integer N, 1<=N<=10^5.
+
+Next line contains N space-separated integers (0<=Ai<=1e5).
+
+ 
+
+
+Output Format
+
+For each test case print length of the smallest sub-array that contains all the distinct elements of array in a newline.
