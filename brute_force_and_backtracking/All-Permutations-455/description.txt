@@ -1,0 +1,20 @@
+Description
+
+Given an array of numbers, that might contain duplicates, print all possible unique permutations in lexicographically increasing order.
+
+
+Input Format
+
+The first line of input contains n - the size of the array.
+The second line contains n space-separated integers denoting the elements of the array - a1, a2, …, an.
+
+
+Output Format
+
+Print all permutations in lexicographically increasing order. See the sample output for more clarity.
+
+
+Constraints
+
+1 ≤ n ≤ 8
+0 ≤ ai ≤ 109
