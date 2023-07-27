@@ -1,0 +1,21 @@
+Description
+
+You have given a positive even integer n. Your task is to print all balanced parenthesis of length n in lexicographic order (https://en.wikipedia.org/wiki/Lexicographic_order). 
+
+Balanced parentheses mean that each opening symbol has a corresponding closing symbol and the pairs of parentheses are properly nested.
+
+
+Input Format
+
+The only line of input contains a number n.
+
+
+Output Format
+
+Print all balanced parenthesis of length n in lexicographic order.
+
+
+Constraints
+
+2 ≤ n ≤ 24
+It is guaranteed that n is even.
