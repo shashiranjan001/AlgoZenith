@@ -39,41 +39,39 @@
 
 #include <iostream>
 #include <vector>
-#include <set>
+#include <map>
 
-void rec(int level, std::vector<int>& curr, std::set<int>& st, int& count, int n, int k) {
-
-    if (count >=k) return;
-    if (level == n) {
-        if (curr.size() == n) {
-            count++;
-            if(count == k) {
-                for (auto it: curr) std::cout << it << " ";
-                std::cout << std::endl;
-            }
+void rec(std::vector<int> curr, int level, std::map<int, int> mp, int& count, int maxLevel, int k) {
+    if (count >= k) return;
+    if (level == maxLevel) {
+        count++;
+        if (count == k) {
+            for (int i = 0; i < maxLevel; i++) std::cout << curr[i] << " ";
+            std::cout << std::endl; 
         }
         return;
     }
 
-    for (auto it = st.begin(); it != st.end(); it++) {
-        curr.push_back(*it);
-        st.erase(*it);
-        rec()
-        it--;
-
-
+    for (auto it: mp) {
+        if (it.second != 0) {
+            curr.push_back(it.first);
+            mp[it.first]--;
+            rec(curr, level+1, mp, count, maxLevel, k);
+            mp[it.first]++;
+            curr.pop_back();
+        }
     }
 }
 
 signed main() {
     int n, k;
     std::cin >> n >> k;
-    std::set<int> st;
+    std::map<int, int> mp;
     for (int i = 0; i < n; i++) {
-        st.insert(i+1);
+        mp[i+1]++;
     }
     std::vector<int> curr;
     int count = 0;
-    rec(0, curr, st, count, k);
+    rec(curr, 0, mp, count, n, k);
 }
 
