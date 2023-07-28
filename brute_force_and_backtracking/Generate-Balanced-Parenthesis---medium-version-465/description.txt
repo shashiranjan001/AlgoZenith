@@ -1,0 +1,28 @@
+Description
+
+You have given two positive integers n and k. Your task is to print all balanced parenthesis of length n in lexicographic order (https://en.wikipedia.org/wiki/Lexicographic_order) with depth exactly k. 
+
+Balanced parentheses mean that each opening symbol has a corresponding closing symbol and the pairs of parentheses are properly nested.
+
+Note:
+
+depth("") = 0.
+depth('(' + A + ')) = depth(A) + 1, where A is a balanced paranthesis sequence.
+depth(A + B) = max(depth(A), depth(B)), where A and B are both balanced paranthesis sequence.
+depth("(") = depth(")") = 0
+
+Input Format
+
+The only line of input contains two numbers number n and k.
+
+
+Output Format
+
+Print all balanced parenthesis of length n with depth k in lexicographic order.
+
+
+Constraints
+
+2 ≤ n ≤ 24
+1 ≤ k ≤ n / 2
+It is guaranteed that n is an even number.
