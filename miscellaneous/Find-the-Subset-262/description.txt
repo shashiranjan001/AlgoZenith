@@ -1,0 +1,22 @@
+Description
+
+You are given a multiset of N integers. Check whether there exists a nonempty subset of it such that the sum of the subset's elements is divisible by N. Otherwise, state that this subset doesn't exist.
+
+
+Input Format
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test consists of a single integer N - the size of the multiset.
+The second line of each test contains N single space-separated integers - the multiset's elements.
+
+
+Output Format
+
+For each test case, print 'YES' if such a subset exists, otherwise print 'NO'.
+
+
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 105
+1 ≤ Ai ≤ 109
