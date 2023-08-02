@@ -1,2 +1,25 @@
-1
+24
+abdsbab 23 50
 babababa 45 32
+ujaabba 4 5
+cxbaeab 17 9
+ab 7 4
+aaba 10 8
+baba 6 4
+ba 4 8
+baabbbb 5 6
+aaabab 1 7
+babaaba 8 10
+b 1 8
+abbaaa 2 7
+b 5 6
+aa 7 4
+bbbaa 8 4
+bbbba 7 6
+babba 8 7
+bababbab 3 1
+baa 6 9
+babbba 3 6
+aa 9 2
+baababaaba 10 8
+bbbbbbaab 3 6
