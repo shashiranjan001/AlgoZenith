@@ -1,0 +1,14 @@
+It is given that elements of an array are between 1 and m (both inclusive), and the absolute difference two adjacent values is at most 1. 
+Find the number of such arrays.
+
+n = 2
+m = 3
+
+1 1
+1 2
+2 1
+2 2
+2 3
+3 2
+3 3
+Ans = 7
