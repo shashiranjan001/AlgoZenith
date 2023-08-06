@@ -1,0 +1,12 @@
+Find the number of ways to construct sum N by throwing dice one or more times. Each throw produces an outcome between 1 and 6.
+
+First line contain N
+output the answer
+
+example: N = 3
+1. 1+1+1
+2. 1 + 2
+3. 2 + 1
+4. 3
+
+Ans = 4
