@@ -4,7 +4,6 @@ Given a bitonic array A consisting of N integers and an integer Q. In each query
 
 Bitonic array - A bitonic sequence is a sequence with A[1]<A[2]<A[3]....A[k]>A[k+1]>A[k+2]....>A[N] for some 1<=K≤N. 
 
-
 Input Format
 
 The first line contains T, the number of test cases (1<=T<=10000).
