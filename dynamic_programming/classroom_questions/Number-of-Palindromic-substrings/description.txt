@@ -1,0 +1,4 @@
+Find the number of substrings of a string that are palindrome.
+
+Example; aba
+Answer: 4-> (a, b, a, aba)
