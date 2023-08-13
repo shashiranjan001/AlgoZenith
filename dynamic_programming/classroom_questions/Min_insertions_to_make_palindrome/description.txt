@@ -1,0 +1,7 @@
+Given a string, the task is to insert minimum number of characters to make the string palindrome.
+
+Example: abcda
+Answer: 2 ab[d]cd[b]ab
+
+First line will contain the string 
+Output the answer
