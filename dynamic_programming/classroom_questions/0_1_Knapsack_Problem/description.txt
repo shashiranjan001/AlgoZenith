@@ -4,8 +4,8 @@ The task is to put the items into the bag such that the sum of profits associate
 
 Note: The constraint here is we can either put an item completely into the bag or cannot put it at all [It is not possible to put a part of an item into the bag].
 
-First line contains T number of test cases, second line contains N and W space separated
-Next line contains N space separated entries denoting weights of N objects
-Next line contains N space separated entries denoting price of N objects
+The first line contains T number of test cases, the second line contains N and W space separated
+The next line contains N space-separated entries denoting the weights of N objects
+The next line contains N space-separated entries denoting the price of N objects
 
-Output the max profit that can be made for each the test cases in a separate line.
+Output the max profit that can be made for each of the test cases in a separate line.
