@@ -1,0 +1,16 @@
+You are given a set of items with their price and happiness. You are given a budget which you can spend on purchasing those items.
+You are also given a number k, which denotes maximum number of items you can purchase.
+You have to find maximum happiness you can accumulate following above constraints.
+
+Example: [[2,3], [2,3], [3,5]]
+Budget: 4
+k: 2
+
+Answer: 6 by buying first and second item
+
+First line will contain number of test cases.
+First line of each test case will contain number 'n', total number of items in the array
+Then n following line would contain two integers denoting price and happiness of each item
+Then it will contain budget and k space separated
+
+Output the maximum happiness that can be made
