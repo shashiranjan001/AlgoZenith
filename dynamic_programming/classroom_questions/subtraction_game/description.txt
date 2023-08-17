@@ -1,0 +1,8 @@
+You playing a game. You are given a number X and a set of moves. You can subtract any number from given moves from X. You reach a new X. Then you opponent does the same optimally.
+If the number reaches to zero then you cannot subtract anymore. When someone is not able to make any move that person looses.
+
+You have to find if there exists a wining strategy.
+
+Example: 21
+Moves: {1,2,3}
+Answer: There exists a wining strategy
