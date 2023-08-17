@@ -1,0 +1,5 @@
+You are given an array of number containing points. Two players are playing and can choose numbers from the array. They chose elements from beginning or ending of the array.
+you are player 1 and you need to maximize the point difference.
+
+Example: 2 10 5 1
+Answer: 4
