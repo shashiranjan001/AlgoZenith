@@ -10,6 +10,7 @@ signed main () {
     for (int i = 0; i < n; i++) {
         std::cin >> moves[i];
     }
+    
     std::cout << std::endl;
     std::vector<bool> dp(x + 1);
     for (int i = 0; i <= x; i++) {
