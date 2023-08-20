@@ -60,7 +60,7 @@ bool dfs(std::vector<std::vector<int> >& graph, std::vector<int>& visited, std::
             std::vector<int> cycle;
             while(current != neighbour) {
                 cycle.push_back(current);
-                current = parent[node];
+                current = parent[current];
             }
             cycle.push_back(current);
             std::reverse(cycle.begin(), cycle.end());
@@ -95,7 +95,6 @@ signed main() {
     for (int i = 1; i <= n; i++) {
         if (!visited[i]) {
             if (dfs(graph, visited, parent, i)) {
-                // for (int j = 1; j <= n; j++) std::cout << j << ":" << parent[j] << std::endl;
                 std::cout << "YES\n";
                 return 0;
             }
