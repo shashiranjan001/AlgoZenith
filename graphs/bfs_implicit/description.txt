@@ -1,4 +1,5 @@
 Given a array of strings representing a grid containing a pattern of . # S E
+
 . -> Can be traversed through
 # -> Wall
 S -> Starting Point
