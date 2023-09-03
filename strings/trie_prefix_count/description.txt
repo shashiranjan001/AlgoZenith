@@ -1,0 +1,2 @@
+From a set of strings answer Q queries which are 
+? S K : Find the lexicographically smallest top K results for prefix match of S 
