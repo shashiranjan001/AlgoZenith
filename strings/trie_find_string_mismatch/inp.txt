@@ -1,0 +1,7 @@
+5
+ab
+acd
+abd
+bcd
+bac
+acd 1
