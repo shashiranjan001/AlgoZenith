@@ -1,0 +1,17 @@
+Description
+
+Given an array of N integers, find the number of subarrays with at most K distinct elements.
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10).
+
+The first line contains two space-separated integers N, K where 1<=N<=10^5, 0<=K<=10^5.
+
+Next line contains N space-separated integers (0<=Ai<=1e6).
+
+
+Output Format
+
+For each test case print the number of subarrays with at most K distinct elements in a newline.

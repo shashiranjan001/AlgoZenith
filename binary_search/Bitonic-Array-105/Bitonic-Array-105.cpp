@@ -62,14 +62,14 @@ bool check(vector<int> &v, int index) {
 }
 
 int findPeakIndex(vector<int> &v) {
-    int low=0, high=v.size()-2, ans=v.size()-1;
-    while(low<=high) {
+    int low = 0, high = v.size() - 2, ans = v.size()-1;
+    while (low <= high) {
         int mid = low + (high-low)/2;
         if (check(v,mid)) {
-            ans=mid;
-            high=mid-1;
+            ans = mid;
+            high = mid-1;
         } else {
-            low=mid+1;
+            low = mid+1;
         }
     }
     return ans;
@@ -82,13 +82,13 @@ bool compare(int a, int b) {
 signed main() {
     ios_base::sync_with_stdio(false);
     int t;
-    cin>>t;
-    while(t--){
-        int n,q,k;
-        cin>>n>>q;
+    cin >> t;
+    while (t--){
+        int n, q, k;
+        cin >> n >> q;
         vector<int> arr(n);
-        for(int i=0; i<n; i++) {
-            cin>>arr[i];
+        for(int i = 0; i < n; i++) {
+            cin >> arr[i];
         }
         int peakID = findPeakIndex(arr);
         // sort(arr.begin()+peakID+1, arr.end());
@@ -106,7 +106,7 @@ signed main() {
                     cout<<rightId+1;
                 }
             }
-            cout<<endl;
+            std::cout << endl;
         }
     }
 }

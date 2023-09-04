@@ -1,0 +1,21 @@
+Given a array of strings representing a grid containing a pattern of . # S E
+
+. -> Can be traversed through
+# -> Wall
+S -> Starting Point
+E -> End Point
+
+You can move into any of the eight neighbors. Find the shortest path from start to end.
+Find and print out the shortest path. If it is unreachable print -1.
+
+Example:
+6 6
+S.#...
+......
+####.#
+E.##.#
+..#..#
+#....#
+
+Answer:
+00 -> 11 -> 12 -> 13 -> 24 -> 34 ->  43 -> 52 -> 41 -> 30

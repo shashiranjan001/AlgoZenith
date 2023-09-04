@@ -1,0 +1,4 @@
+Given an array of length N, find the maximum sum contiguous subarray.
+
+example: A = [-2, -3, 4, -1, -2, 1, 5, 3]
+Ans: 7 [2th-6th] 

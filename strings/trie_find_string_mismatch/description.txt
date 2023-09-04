@@ -1,0 +1,8 @@
+Given many strings. answer Q queries of the form
+S K: Find all strings in the above set that have at-most K positions mismatch with set
+
+example:
+Set: ab, acd, abd, bcd, bac
+S K: acd, 1
+
+Answer: bcd, abd, acd

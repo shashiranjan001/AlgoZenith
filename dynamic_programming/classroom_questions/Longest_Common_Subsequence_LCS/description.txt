@@ -1,0 +1,7 @@
+Given two sequences A and B, find the length of longest subsequences present in both of them.
+
+Example: LCS of "ABCDGH" and "AEDFHR" is "ADH"
+
+first line contains one string, second line contains second string
+
+Output the length of LCS and the LCS string

@@ -1,0 +1,8 @@
+Given a string find the minimum number of partitions required to make the all the substrings formed by the partitions palindrome.
+
+S = ababbbabbababa
+
+Ans1: aba | b | bbabb | a | b | aba
+Ans2: a | babbbab | b | ababbbabbababa
+
+Ans = Ans2 = 3

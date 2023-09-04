@@ -1,0 +1,17 @@
+Description
+
+Given an array of N integers, find a subarray with at most K odd numbers and the total sum is maximum but not more than D. If no such subarray exists print "IMPOSSIBLE" without double-quotes.
+
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=10).
+
+The first line contains two space separated integers N, K, D where 1<=N<=10^5,  0<=K<=10^5, -1e9<=D<=1e9.
+
+Next line contains N space-separated integers (-1e4<=Ai<=1e4).
+
+
+Output Format
+
+For each test case print the sum of subarray with at most K odd numbers and the total sum is maximum, but not more than D in a newline. If no subarray is possible then print "IMPOSSIBLE" without double-quotes.

@@ -1,0 +1,4 @@
+Print DFS traversal of a graph.
+First line contains number of nodes. Each node is numbered from 1 to n.
+Second line contains number of edges.
+Then next E lines contains E directed edges.
