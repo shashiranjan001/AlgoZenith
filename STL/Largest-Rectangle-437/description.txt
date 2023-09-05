@@ -1,0 +1,22 @@
+Description
+
+You have to find the largest rectangular area possible in a given histogram where the largest rectangle can be made of contiguous bars. Assume that all bars have the same width and the width is 1 unit.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains one integer N - the length of the array. 
+The second line of each test case contains N space-separated integers, where Hi denotes the height of the ith bar.
+
+
+Output Format
+
+For each test case, print the largest area of the rectangle in the histogram.
+
+
+Constraints
+
+1≤ T ≤ 100
+1≤ N ≤ 105
+1≤ Hi ≤ 105
