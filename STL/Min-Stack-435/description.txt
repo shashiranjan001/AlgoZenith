@@ -1,0 +1,24 @@
+Implement a stack that supports the following operations.
+
+push x -- Push element x onto stack.
+pop -- Remove the element on top of the stack, if the stack is non-empty. Otherwise do nothing.
+top -- Print the top element, if the stack is non-empty. Otherwise, print -1.
+getMin -- Print the minimum element in the stack, if the stack is non-empty. Otherwise, print -1.
+Initially, the stack is empty.
+
+
+Input Format
+
+The first line of input contains Q - the number of queries.
+Each of next line contains input in one of the four formats mentioned in the problem statement.
+
+
+Output Format
+
+Print the answer for the top and getMin operations.
+
+
+Constraints
+
+1 ≤ Q ≤ 106
+0 ≤ x ≤ 109
