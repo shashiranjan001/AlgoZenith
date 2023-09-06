@@ -1,0 +1,34 @@
+Description
+
+Alice and Bob are playing a new game, which is very interesting and fun. The game is as follows:
+
+The game starts with two n-sized integer arrays, A and B, and is played by two players, P1 and P2.
+The players move in alternating turns, with P1 always moving first. During each move, the current player must choose an integer, i, such that 0 ≤ i ≤ n - 1. If the current player is P1, then  P1 receives Ai points; if the current player is P2, then P2 receives Bi points.
+Each value of i can be chosen only once. That is, if a value of i is already chosen by some player, none of the players can re-use it. So, the game always ends after n moves.
+The player with the maximum number of points wins.
+The arrays A and B are accessible to both the players P1 and P2. So the players make an optimal move at every turn.
+Given the values of n, A, and B, can you determine the outcome of the game? P1 is Alice and P2 is Bob.
+Print ‘Alice’ if Alice will win, 'Bob' if Bob will win, or 'Tie' if they will tie. Assume both players always move optimally.
+
+
+Input Format
+
+The first line of input contains one integer T (1 ≤ T ≤ 10) — the number of test cases. Then T test cases follow.
+The first line of each test case contains N (2 ≤ N ≤ 1000), the number of elements in arrays A and B.
+The second line contains N space-separated integers A1, A2, ..., AN - the elements of array A.
+The third line contains N space-separated integers B1, B2, ..., BN - the elements of array B.
+
+
+Output Format
+
+For each test case, print one of the following predicted outcomes of the game on a new line:
+
+Print 'Alice' if Alice will win.
+Print 'Bob' if Bob will win.
+Print 'Tie' if the two players will tie.
+
+Constraints
+
+1 ≤ T ≤ 10
+2 ≤ N ≤ 1000
+1 ≤ Ai, Bi ≤ 105
