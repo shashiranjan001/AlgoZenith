@@ -1,0 +1,21 @@
+Description
+
+You are given N elements, in an array A. You can take any 2 consecutive elements a and b and merge them. On merging you get a single element with value (a+b)%100 and this process costs you a*b. After merging you will place this element in place of those 2 elements.
+ 
+
+If the sequence is [A1, A2, A3, A4] and you merge A2 and A3, you incur a cost of A2*A3 and the array becomes [A1, (A2+A3)%100, A4].
+ 
+
+Find the Minimum cost to merge all the elements into a single element.
+
+
+Input Format
+
+The first line contains a single element N. 1 <= N <= 500
+
+The Second line contains N space separated integers, the Ai for the Array.  0 <= Ai < 100
+
+
+Output Format
+
+Output a single integer, the Minimum cost to Merge all the elements.
