@@ -1,0 +1,124 @@
+Description
+
+We can scramble a string 
+s
+ to get a string 
+t
+ using the following algorithm:
+
+If the length of the string is 
+1
+, stop.
+
+If the length of the string is 
+>
+1
+, do the following:
+2.1 Split the string into two non-empty substrings at a random index, i.e., if the string is 
+s
+, divide it to 
+x
+ and 
+y
+ where 
+s
+=
+x
++
+y
+.
+2.2 Randomly decide to swap the two substrings or to keep them in the same order. i.e., after this step, 
+s
+ may become 
+s
+=
+x
++
+y
+ or 
+s
+=
+y
++
+x
+.
+
+Apply step 
+1
+ recursively on each of the two substrings 
+x
+ and 
+y
+.
+
+
+Input Format
+
+The first-line contains 
+T
+ - the number of test cases.
+Each test case contains two strings 
+s
+1
+ and 
+s
+2
+ of the same length.
+
+
+Output Format
+
+For each test case, output "Yes" if 
+s
+2
+ is a scrambled string of 
+s
+1
+, otherwise, output "No", in a newline.
+
+
+Constraints
+
+1
+≤
+T
+≤
+100
+
+s
+1.
+l
+e
+n
+g
+t
+h
+==
+s
+2.
+l
+e
+n
+g
+t
+h
+
+1
+<=
+s
+1.
+l
+e
+n
+g
+t
+h
+<=
+40
+
+s
+1
+ and 
+s
+2
+ consist of lower-case English letters.

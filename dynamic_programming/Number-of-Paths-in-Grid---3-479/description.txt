@@ -1,0 +1,26 @@
+Given a grid of size n*m, you need to find the number of paths from (1, 1) to (n, m). You are allowed to move from (x, y) to (x+1, y) and (x, y) to (x, y+1). You cannot move more than K consecutive right moves. The grid may have some blocked cells, represented by 1, and it is not allowed to move to a blocked cell. An empty cell is represented by 0.
+
+
+Input Format
+
+The first line of the input contains one integer t - the number of test cases. Then t test cases follow.
+
+The first line of each test case contains three space-separated integers n, m, k - the size of the grid and the number of right moves you can make.
+
+Each of the following n lines contains m space-separated integers, aij - the number at that cell.
+
+
+Output Format
+
+For each test case, print the number of paths modulo 10^9 + 7.
+
+
+Constraints
+
+1 ≤ t ≤ 105
+
+1 ≤ n, m, k ≤ 200
+
+0 ≤ aij ≤ 1
+
+It is guaranteed that the sum of nmk over all test cases does not exceed 108.
