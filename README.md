@@ -1,3 +1,3 @@
-# Data Structure and Algorithm @algoZenith
+# Data Structures and Algorithm @algoZenith
 
 owner: @shashiranjanprakash
