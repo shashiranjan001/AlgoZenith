@@ -1,0 +1,10 @@
+Given a tree in adjacency list format return an array where array[i] denotes height of tree when the tree is rooted at i
+
+ex:
+1 : 2, 3, 4
+4: 5, 6
+5: 7, 8
+
+Answer for node 7 = 5
+Answer for node 5 = 3
+Answer for node 1 = 3
