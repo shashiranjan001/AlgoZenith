@@ -1,0 +1,13 @@
+You are given an array. You are given Q queries
+
+1 L R V: change value of elements from index L to R to V
+2 L R: find max and sum of all elements from index L to R
+
+10
+1 2 3 4 1 2 3 4 6 7
+3
+1 0 5 3 -> 3 3 3 3 3 3 3 4 6 7
+1 6 9 4 -> 3 3 3 3 3 3 4 4 4 4
+2 3 6 -> 13 4
+
+Answer: sum = 13 max = 4
