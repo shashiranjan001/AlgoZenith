@@ -1,0 +1,7 @@
+Design a structure in which you will receive queries in the form
+
+1 x: insert x in the structure;
+2 x: remove x from the structure;
+3 k: find the kth element in the set;
+
+Given  0 < x,k < 1e5
