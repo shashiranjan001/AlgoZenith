@@ -1,0 +1,32 @@
+Description
+
+You are given N bricks in a line and M different coloured buckets of paint. You have to find the number of ways you can colour the brick wall such that there are exactly K positions out of the N bricks such that it has a different colour from the brick wall on its immediate left. (except the first brick, since there is no left brick). Print it modulo 10^9+7.
+
+ 
+
+ 
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first and only line of each test case contains three space-separated integers N, M, K.
+
+ 
+
+
+Output Format
+
+For each test case, print the number of ways you can color the brick wall satisfying the given condition % 10^9+7.
+
+
+Constraints
+
+1≤ T ≤ 100
+
+1≤ N, M ≤ 2000
+
+0≤ K ≤ N-1
+
+It is guaranteed that the sum of NK over all test cases does not exceed 4108.

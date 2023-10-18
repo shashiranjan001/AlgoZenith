@@ -1,0 +1,7 @@
+Find the number of integers between 1 and K (inclusive) satisfying the following condition, modulo 10^9+7:
+
+The sum of the digits in base ten is a multiple of D.
+Constraints
+All values in input are integers.
+1≤K<10^10000
+1≤D≤100

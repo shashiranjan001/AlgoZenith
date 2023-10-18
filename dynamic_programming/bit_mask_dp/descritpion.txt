@@ -1,0 +1,8 @@
+Lets Look into a problem:
+There are N Ranks and M students in a class. Each student has a happiness value for the rank in the class he gets. The ith Student gets happyllil on getting a rank j.
+Its ok to not keep all students in the ranks (They get 0 happiness). At most one student can be assigned to a rank.
+The total happiness of the assignment can be calculated as Sum of Happiness of each of the students in the class. Find the best way to calculate maximum happiness attainable.
+1 <=N<= 15.
+1 <= M <= 50.
+0 <= happy[j][i] <= 10^5.
+j: rank, i: student
