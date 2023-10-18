@@ -1,0 +1,12 @@
+11
+push 1
+push 3
+top
+getMin
+pop
+top
+getMin
+pop
+pop
+top
+getMin

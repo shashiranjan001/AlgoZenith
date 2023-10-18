@@ -1,0 +1,6 @@
+Given a pattern p and a string s. FInd number of occurrences of pattern p in string s.
+
+Ex: pattern aba
+s: abcabcabacabaabaabadaba
+
+answer: 5

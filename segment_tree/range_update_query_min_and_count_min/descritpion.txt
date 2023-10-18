@@ -1,0 +1,9 @@
+You are given an array and you receive certain queries in the form
+
+1 X V: Update value at X to V;
+2 L R: Find min value from L to R and also its count
+
+Example: 
+Array:  1 2 3 2 3
+Q: 1 2 1 -> 1 2 1 2 3
+Q: 2 1 4 -> 1, 1

@@ -1,0 +1,1 @@
+Print cycles in a not simple undirected graph. There exists self-loops and multiple links between two nodes.
